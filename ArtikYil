@@ -1,0 +1,31 @@
+
+/* Patika java 101
+ * Artık Yıl Hesaplayan Program;
+ 
+*/
+
+import java.util.Scanner;
+
+	public class patika {
+		
+	 public static void main(String[] arguments){
+
+	  System.out.println("\nArtık Yıl Tespit Eden Program");
+	  System.out.println("----------------------------------------");
+	  Scanner input = new Scanner(System.in);
+
+	 
+	  System.out.print("\nLütfen bir yıl giriniz : ");
+	  int year = input.nextInt();
+	 
+  
+	  if ( (year % 100 == 0) && (year % 400 == 0) || year % 4 == 0){
+	   
+		   System.out.println( year + "\nArtık bir yıldır");
+	    }
+	  else System.out.println( year + "\nArtık bir yıl değildir!!!");
+
+	  }
+	 }
+
+	
