@@ -45,7 +45,3 @@ public class BasamakSayilariToplami {
         System.out.println("Rakamlar toplamı:"+toplam);
     }
 }
-© 2022 GitHub, Inc.
-Terms
-Privacy
-Security
