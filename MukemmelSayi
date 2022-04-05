@@ -1,0 +1,23 @@
+import java.util.Scanner;
+
+	public class patika {
+		
+					public static void main(String[] args) {
+					
+					Scanner scanner=new Scanner(System.in);
+					System.out.println("Mükemmel sayı olup olmadığı kontrol edilecek sayı : ");
+					
+					int num = scanner.nextInt(),kontrol=0;
+					for(int i=1;i<num;i++) {
+						if(num%i==0) {
+							kontrol+=i;
+							
+						}
+						
+					}
+					if(kontrol==num) {
+						System.out.println(num +" Sayısı mükemmel bir sayıdır");
+					}else System.out.println(num +" Sayısı mükemmel bir sayı değildir");
+				}
+
+			}
