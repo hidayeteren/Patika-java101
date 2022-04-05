@@ -1,0 +1,18 @@
+import java.util.Scanner;
+
+public class Test {
+    public static void main(String[] args) {
+       Scanner scan = new Scanner(System.in);
+       int input, üs, count = 1;
+       System.out.print("Üssü alınacak sayı: ");
+       input = scan.nextInt();
+
+       System.out.print("Üs olacak sayı: ");
+       üs = scan.nextInt();
+       int a = üs;
+       for (;üs >0;üs--){
+           count *= input;
+       }
+       System.out.println(input + " üssü " + a + ": " + count);
+    }
+}
