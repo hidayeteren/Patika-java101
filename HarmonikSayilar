@@ -1,0 +1,16 @@
+import java.util.Scanner;
+
+public class Test {
+    public static void main(String[] args) {
+       Scanner scan = new Scanner(System.in);
+       int number;
+       double sum = 0;
+        System.out.print("Bir sayı giriniz: ");
+        number = scan.nextInt();
+
+        for(int i = 1; i <= number; i++){
+            sum += (1.0/i);
+        }
+        System.out.println(sum);
+    }
+}
